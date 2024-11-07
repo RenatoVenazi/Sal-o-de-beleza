@@ -131,7 +131,7 @@ main{
 
 h2{
     font-weight: bold;
-    font-size: 55px;
+    font-size: 25px;
 }
 
 .products li > img{
@@ -206,7 +206,7 @@ h2{
 
 .video{
     width: 560px;
-    margin: 0 auto;
+    margin: 55 auto;
     padding: 30px
 }
 
