@@ -20,18 +20,18 @@ body{
 
 
 nav ul{
-    position: absolute; /*initial point reference position with full page*/
-    top: 110px; /*distance of top*/
+    position: absolute; 
+    top: 110px; 
     right: 0px;
 }
 
 nav li{
     display: inline;
-    margin: 0 0 0 15px; /*Extern space*/
+    margin: 0 0 0 15px; 
     
 }
 
-nav a:hover{ /*change behavior when the mouse be above*/
+nav a:hover{ 
     color: #990011;
     text-decoration: underline;
 }
@@ -42,7 +42,7 @@ nav a{
     color: black;
     text-decoration: none;/*default link design off*/
     font-size: 22px;
-}
+}/*every p that is a direct child of the principal, into of block*/
 
 #banner{
     width: 100%;
@@ -91,11 +91,11 @@ main{
     font-size: 2em; /* (em) is size proportional as pixels. Here double size*/
 }
 
-.local > p{ /*every p that is a direct child of the principal, into of block*/
+.local  p{ 
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 20px;
-    color: rgba(0, 0, 0, 0.5);/*channel alpha for change opacity of text*/
+    color: rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 2px #777777;
 }
 
@@ -107,7 +107,7 @@ main{
     width: 960px;
     margin: 0 auto;
     padding: 30px;
-} <!--Font  txt-->
+}
 
 .products li{
     display: inline-block;
@@ -116,16 +116,16 @@ main{
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px; 
-    box-sizing: border-box;/* The width (width) and height (height) properties include the fill size and property boundary */ /*not to increase the size of the element*/
-    border: 2px solid #000000;/*size / style / color */
-    border-radius: 10px; /* curvature */
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px; 
 }
 
-.products li:hover{/*change behavior when the mouse it is over*/
+.products li:hover{
     border-color: #990011;
 }
 
-.products li:active{ /*change behavior when the mouse do click*/
+.products li:active{ 
     border-color: #339900;
 }
 
